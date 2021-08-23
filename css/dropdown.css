@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    padding-bottom: 1em;
+}
+button{
+    background-color: black;
+    border: 1px rgb(185, 185, 185) solid;
+    color: rgb(185, 185, 185);
+    padding: 1em;
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    padding-bottom: 4em;
+    margin-bottom: 1em;
+}
+header h1{
+    float: left;
+}
+
+.dropdn{    
+    float: right;
+    margin: 0.1em 5em 0 0;
+}
+.drop-content a{
+    display: block;
+}
+.drop-content{
+    display: none;
+}
+.dropdn:hover .drop-content{
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+}
+a:hover{
+    background-color: rgb(124, 124, 124);
+}
+.sec{
+    width: 90%;
+}
+.sec h1{
+    margin: 1em;
+    font-size: 32px;
+}
+.sec p{
+    margin: 0 0 0 2em;
+    font-size: 20px;
+}
